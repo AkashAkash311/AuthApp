@@ -22,14 +22,3 @@ const userSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("User", userSchema);
-
-/*
-    
-{
-    "name": "Akash",
-    "email": "akashbhuker2003@gmail.com",
-    "password": "@Jaibir_123",
-    "role": "Student"
-}
-
-*/ 
